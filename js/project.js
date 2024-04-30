@@ -56,7 +56,7 @@ camera.position.z = 1200;
 // // ~~~~~~~~~~~~~~~~Particles ~~~~~~~~~~~~~~~~~~~~
 const geometry = new THREE.CapsuleGeometry( 10, 1, 10, 100 ); 
 const material = new THREE.PointsMaterial({
-    size: 0.2
+    size: 0.5
 })
 
 const capsule = new THREE.Points( geometry, material );
