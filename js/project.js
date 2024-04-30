@@ -38,7 +38,7 @@ scene.add(ambientLight);
 
 const controls = new OrbitControls(camera, renderer.domElement);
 const loader = new GLTFLoader();
-loader.load('assets/THREEJS.gltf', function (gltf) {
+loader.load('./assets/THREEJS.gltf', function (gltf) {
     const character = gltf.scene;
     scene.add(character);
     character.scale.set(10,10,10)
